@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
 #      else
         hash_data[value1[i]] = {key => ["#{key1}"]}
 #      end
-      print hash_data.key(value1[i])
+      print hash_data.key?(value1[i])
       
          
 
