@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       while i < value1.length
       if hash_data.key?(value1[i]) == true
         if hash_data[value1[i]].key?(key) == true
-          hash_data[value1[i]][key] = "#{key1}"
+          hash_data[value1[i]][key] << "#{key1}"
         else
         hash_data[value1[i]][key] = ["#{key1}"]
         end
