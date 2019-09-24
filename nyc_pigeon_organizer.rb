@@ -4,11 +4,11 @@ def nyc_pigeon_organizer(data)
     value.each do |key1, value1|
       i = 0
       while i < value1.length
-      print hash_data.key?(value1[i]) == true
-#        hash_data[value1[i]][key] = "#{key1}"
-#      else
+      if hash_data.key?(value1[i]) == true
+        hash_data[value1[i]][key] = "#{key1}"
+      else
         hash_data[value1[i]] = {key => ["#{key1}"]}
-#      end
+      end
 
       
          
