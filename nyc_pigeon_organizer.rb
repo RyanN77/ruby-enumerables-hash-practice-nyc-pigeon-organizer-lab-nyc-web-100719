@@ -4,7 +4,8 @@ def nyc_pigeon_organizer(data)
     value.each do |key1, value1|
       i = 0
       while i < value1.length
-      hash_data[value1[i]] = {key => {}}
+        
+      hash_data[value1[i]] = {key => []}
       
       
          
