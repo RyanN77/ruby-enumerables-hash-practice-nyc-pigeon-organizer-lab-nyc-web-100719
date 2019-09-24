@@ -3,8 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |key1, value1|
       i = 0
-      print value1
-      while i < key1.length
+      while i < value1.length
       hash_data[value1[i]] = "hi" 
       
       
