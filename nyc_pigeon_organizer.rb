@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
 
         i += 1
         end
- #       print hash_data
+        print hash_data
       end
     end
   return hash_data
